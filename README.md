@@ -8,37 +8,45 @@
 Here's your itinerary for the next 7 days:
 
 **Day 1: Introduction to Nest.js and Setup**
+
 - Get an overview of Nest.js and its benefits.
 - Set up your development environment.
 - Create your first Nest.js project.
 
-### TODO
+**Day 2 to Day 7: Coming Soon**
 
-**Day 2: Controllers and Routing**
-- Learn about controllers in Nest.js and how to define routes.
-- Dive into route handlers and HTTP request methods.
-
-**Day 3: Providers and Services**
-- Understand providers and services in Nest.js.
-- Implement a service and use it in a controller.
-
-**Day 4: Modules**
-- Learn about modules in Nest.js and how they help organize your code.
-- Create your own module.
-
-**Day 5: Middleware and Exception Filters**
-- Understand the role of middleware in Nest.js.
-- Learn how to handle exceptions using filters.
-
-**Day 6: Authentication and Authorization**
-- Learn about Guard classes for implementing authentication and authorization.
-- Implement a basic authentication system.
-
-**Day 7: Databases and ORM**
-- Understand how Nest.js interacts with databases using TypeORM.
-- Implement a simple CRUD (Create, Read, Update, Delete) application using a database.
+Our journey will continue with topics like Controllers and Routing, Providers and Services, Modules, Middleware and Exception Filters, Authentication and Authorization, and Databases and ORM. Stay tuned!
 
 Remember, learning by doing is the most effective way. So, always try to code along and experiment with the concepts you learn.
+
+## 👩‍💻 How to Use
+
+1. **Clone the Repository:** Start by cloning this repository to your local machine.
+
+```bash
+gh repo clone jellydn/nestjs-7days-journey
+```
+
+2. **Navigate to the Repository:** Change to the repository's directory.
+
+```bash
+cd nestjs-7days-journey
+```
+
+3. **Start Coding:** Navigate to the project for the day and start coding! For example, for Day 1:
+
+```bash
+cd 01-basic
+pnpm install
+```
+
+4. **Run the Project**: After coding, run the project to see the result:
+
+```bash
+pnpm run start
+```
+
+5. **Repeat:** Repeat steps 3 for each day's project. Always check the README for each day's instructions.
 
 ## 🌟 Show Your Support
 
