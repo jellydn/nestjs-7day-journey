@@ -24,13 +24,13 @@ Remember, learning by doing is the most effective way. So, always try to code al
 1. **Clone the Repository:** Start by cloning this repository to your local machine.
 
 ```bash
-gh repo clone jellydn/nestjs-7days-journey
+gh repo clone jellydn/nestjs-7day-journey
 ```
 
 2. **Navigate to the Repository:** Change to the repository's directory.
 
 ```bash
-cd nestjs-7days-journey
+cd nestjs-7day-journey
 ```
 
 3. **Start Coding:** Navigate to the project for the day and start coding! For example, for Day 1:
@@ -48,6 +48,18 @@ pnpm run start
 
 5. **Repeat:** Repeat steps 3 for each day's project. Always check the README for each day's instructions.
 
+## Author
+
+👤 **Huynh Duc Dung**
+
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
+
 ## 🌟 Show Your Support
 
 Give a ⭐️ if this project helped you on your journey to mastering Nest.js!
+
+[![kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dunghd)
+[![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
+[![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
