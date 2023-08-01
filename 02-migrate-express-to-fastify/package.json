@@ -21,25 +21,25 @@
   },
   "dependencies": {
     "@fastify/helmet": "11.0.0",
-    "@nestjs/common": "10.1.2",
-    "@nestjs/core": "10.1.2",
-    "@nestjs/platform-fastify": "10.1.2",
+    "@nestjs/common": "10.1.3",
+    "@nestjs/core": "10.1.3",
+    "@nestjs/platform-fastify": "10.1.3",
     "reflect-metadata": "0.1.13",
     "rxjs": "7.8.1"
   },
   "devDependencies": {
-    "@nestjs/cli": "10.1.10",
+    "@nestjs/cli": "10.1.11",
     "@nestjs/schematics": "10.0.1",
-    "@nestjs/testing": "10.1.2",
-    "@swc/core": "1.3.71",
+    "@nestjs/testing": "10.1.3",
+    "@swc/core": "1.3.73",
     "@trivago/prettier-plugin-sort-imports": "4.2.0",
     "@types/node": "20.4.5",
     "@types/supertest": "2.0.12",
-    "@typescript-eslint/eslint-plugin": "6.2.0",
-    "@typescript-eslint/parser": "6.2.0",
+    "@typescript-eslint/eslint-plugin": "6.2.1",
+    "@typescript-eslint/parser": "6.2.1",
     "@vitest/coverage-c8": "0.33.0",
-    "@vitest/coverage-v8": "0.33.0",
-    "eslint": "8.45.0",
+    "@vitest/coverage-v8": "0.34.1",
+    "eslint": "8.46.0",
     "eslint-config-productsway": "1.1.1",
     "prettier": "3.0.0",
     "source-map-support": "0.5.21",
@@ -49,8 +49,8 @@
     "tsconfig-paths": "4.2.0",
     "typescript": "5.1.6",
     "unplugin-swc": "1.3.2",
-    "vite": "4.4.7",
-    "vitest": "0.33.0"
+    "vite": "4.4.8",
+    "vitest": "0.34.1"
   },
   "jest": {
     "moduleFileExtensions": [
