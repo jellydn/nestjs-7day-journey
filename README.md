@@ -13,6 +13,18 @@ Here's your itinerary for the next 7 days:
 - Set up your development environment.
 - Create your first Nest.js project.
 
+Day 2: Controllers and Routing
+
+- Understand the role of controllers in a Nest.js application.
+- Use the Nest.js CLI to generate controllers.
+- Define routes using various HTTP methods.
+- Create dynamic routes with parameters.
+- Access request and response objects.
+- Integrate Swagger/OpenAPI for API Documentation:
+  - Install and configure Swagger in your Nest.js project.
+  - Utilize Swagger UI to visualize and interact with your API's resources.
+  - Document your API using OpenAPI standards, including parameters, responses, and descriptions.
+
 **Day 2 to Day 7: Coming Soon**
 
 Our journey will continue with topics like Controllers and Routing, Providers and Services, Modules, Middleware and Exception Filters, Authentication and Authorization, and Databases and ORM. Stay tuned!
