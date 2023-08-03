@@ -60,10 +60,10 @@ devDependencies:
     version: 8.46.0
   eslint-config-productsway:
     specifier: 1.1.1
-    version: 1.1.1(@typescript-eslint/eslint-plugin@6.2.1)(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(prettier@3.0.0)(typescript@5.1.6)
+    version: 1.1.1(@typescript-eslint/eslint-plugin@6.2.1)(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(prettier@3.0.1)(typescript@5.1.6)
   prettier:
-    specifier: 3.0.0
-    version: 3.0.0
+    specifier: 3.0.1
+    version: 3.0.1
   source-map-support:
     specifier: 0.5.21
     version: 0.5.21
@@ -2223,7 +2223,7 @@ packages:
       eslint: 8.46.0
     dev: true
 
-  /eslint-config-productsway@1.1.1(@typescript-eslint/eslint-plugin@6.2.1)(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(prettier@3.0.0)(typescript@5.1.6):
+  /eslint-config-productsway@1.1.1(@typescript-eslint/eslint-plugin@6.2.1)(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(prettier@3.0.1)(typescript@5.1.6):
     resolution: {integrity: sha512-iXE0WZDHJpMEeqdXO5Y2J/14QHoln+FL7r8nkLfl1bYbVd9xPXuQDqzAa2M3jDEjlnXB+WeNW4RbTMUxdkYM+g==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -2243,7 +2243,7 @@ packages:
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.46.0)
       eslint-plugin-react: 7.33.0(eslint@8.46.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.46.0)
-      prettier: 3.0.0
+      prettier: 3.0.1
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -3889,8 +3889,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@3.0.0:
-    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+  /prettier@3.0.1:
+    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
