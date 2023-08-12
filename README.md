@@ -25,7 +25,11 @@ Day 2: Controllers and Routing
   - Utilize Swagger UI to visualize and interact with your API's resources.
   - Document your API using OpenAPI standards, including parameters, responses, and descriptions.
 
-**Day 2 to Day 7: Coming Soon**
+Day 3: Providers and Services
+
+- TBD
+
+**Day 4 to Day 7: Coming Soon**
 
 Our journey will continue with topics like Controllers and Routing, Providers and Services, Modules, Middleware and Exception Filters, Authentication and Authorization, and Databases and ORM. Stay tuned!
 
