@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@nestjs/common':
-    specifier: 10.2.1
-    version: 10.2.1(reflect-metadata@0.1.13)(rxjs@7.8.1)
+    specifier: 10.2.2
+    version: 10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
   '@nestjs/core':
-    specifier: 10.2.1
-    version: 10.2.1(@nestjs/common@10.2.1)(@nestjs/platform-express@10.2.1)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+    specifier: 10.2.2
+    version: 10.2.2(@nestjs/common@10.2.2)(@nestjs/platform-express@10.2.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
   '@nestjs/platform-express':
-    specifier: 10.2.1
-    version: 10.2.1(@nestjs/common@10.2.1)(@nestjs/core@10.2.1)
+    specifier: 10.2.2
+    version: 10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)
   reflect-metadata:
     specifier: 0.1.13
     version: 0.1.13
@@ -29,8 +29,8 @@ devDependencies:
     specifier: 10.0.2
     version: 10.0.2(typescript@5.2.2)
   '@nestjs/testing':
-    specifier: 10.2.1
-    version: 10.2.1(@nestjs/common@10.2.1)(@nestjs/core@10.2.1)(@nestjs/platform-express@10.2.1)
+    specifier: 10.2.2
+    version: 10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)(@nestjs/platform-express@10.2.2)
   '@swc/core':
     specifier: 1.3.80
     version: 1.3.80
@@ -38,8 +38,8 @@ devDependencies:
     specifier: 4.17.17
     version: 4.17.17
   '@types/node':
-    specifier: 20.5.6
-    version: 20.5.6
+    specifier: 20.5.7
+    version: 20.5.7
   '@types/supertest':
     specifier: 2.0.12
     version: 2.0.12
@@ -75,7 +75,7 @@ devDependencies:
     version: 9.4.4(typescript@5.2.2)(webpack@5.88.2)
   ts-node:
     specifier: 10.9.1
-    version: 10.9.1(@swc/core@1.3.80)(@types/node@20.5.6)(typescript@5.2.2)
+    version: 10.9.1(@swc/core@1.3.80)(@types/node@20.5.7)(typescript@5.2.2)
   tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0
@@ -83,11 +83,11 @@ devDependencies:
     specifier: 5.2.2
     version: 5.2.2
   unplugin-swc:
-    specifier: 1.3.2
-    version: 1.3.2(@swc/core@1.3.80)(vite@4.4.9)(webpack@5.88.2)
+    specifier: 1.4.2
+    version: 1.4.2(@swc/core@1.3.80)
   vite:
     specifier: 4.4.9
-    version: 4.4.9(@types/node@20.5.6)
+    version: 4.4.9(@types/node@20.5.7)
   vitest:
     specifier: 0.34.3
     version: 0.34.3
@@ -599,8 +599,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@nestjs/common@10.2.1(reflect-metadata@0.1.13)(rxjs@7.8.1):
-    resolution: {integrity: sha512-zo5OQbNmchV58SHw4vBCLIbsCrpZmNuW9W4m5BE1lB+9FW9ZiLQeZjIxzlL3bEKiI9cezRvDhct/53LPS8R4aA==}
+  /@nestjs/common@10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-TCOJK2K4FDT3GxFfURjngnjBewS/hizKNFSLBXtX4TTQm0dVQOtESnnVdP14sEiPM6suuWlrGnXW9UDqItGWiQ==}
     peerDependencies:
       class-transformer: '*'
       class-validator: '*'
@@ -615,11 +615,11 @@ packages:
       iterare: 1.2.1
       reflect-metadata: 0.1.13
       rxjs: 7.8.1
-      tslib: 2.6.1
+      tslib: 2.6.2
       uid: 2.0.2
 
-  /@nestjs/core@10.2.1(@nestjs/common@10.2.1)(@nestjs/platform-express@10.2.1)(reflect-metadata@0.1.13)(rxjs@7.8.1):
-    resolution: {integrity: sha512-oH1jmCrVUkBkbeiEzAaYZ5unddn5bW/Id15pPGblYeLGAmfjXW9+G5VCffoGpO1DxBZdZu5/qcXTYyCR6rgXTg==}
+  /@nestjs/core@10.2.2(@nestjs/common@10.2.2)(@nestjs/platform-express@10.2.2)(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-444gApiDCV63Gq7a3WgboNEPBYZt/UcozRhOKEl5FTAXWrZbDoz48e8RXOCFzST1Py0HKUnharMtpb28l7zgJw==}
     requiresBuild: true
     peerDependencies:
       '@nestjs/common': ^10.0.0
@@ -636,32 +636,32 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 10.2.1(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/platform-express': 10.2.1(@nestjs/common@10.2.1)(@nestjs/core@10.2.1)
+      '@nestjs/common': 10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/platform-express': 10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
       path-to-regexp: 3.2.0
       reflect-metadata: 0.1.13
       rxjs: 7.8.1
-      tslib: 2.6.1
+      tslib: 2.6.2
       uid: 2.0.2
     transitivePeerDependencies:
       - encoding
 
-  /@nestjs/platform-express@10.2.1(@nestjs/common@10.2.1)(@nestjs/core@10.2.1):
-    resolution: {integrity: sha512-QwujsYKeVAdyZAyS21fzIsOn5X+JpIm1ZJrdzj/4B8U5GmAm5NM6H3E2ZqvctEtSnhD9iKP4tGUj4Z8MiIFo5A==}
+  /@nestjs/platform-express@10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2):
+    resolution: {integrity: sha512-g5AeXgPQrVm62JOl9FXk0w3Tq1tD4f6ouGikLYs/Aahy0q/Z2HNP9NjXZYpqcjHrpafPYnc3bfBuUwedKW1oHg==}
     peerDependencies:
       '@nestjs/common': ^10.0.0
       '@nestjs/core': ^10.0.0
     dependencies:
-      '@nestjs/common': 10.2.1(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.2.1(@nestjs/common@10.2.1)(@nestjs/platform-express@10.2.1)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.2(@nestjs/common@10.2.2)(@nestjs/platform-express@10.2.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       body-parser: 1.20.2
       cors: 2.8.5
       express: 4.18.2
       multer: 1.4.4-lts.1
-      tslib: 2.6.1
+      tslib: 2.6.2
     transitivePeerDependencies:
       - supports-color
 
@@ -695,8 +695,8 @@ packages:
       - chokidar
     dev: true
 
-  /@nestjs/testing@10.2.1(@nestjs/common@10.2.1)(@nestjs/core@10.2.1)(@nestjs/platform-express@10.2.1):
-    resolution: {integrity: sha512-NZp79hk5WigRkfraBwAIIEczzk+ionPSqpEr1qJxSXAF2HARtEDX8WqrHWe83k6Wff5d4S4D1ZRDtGp88/d8PQ==}
+  /@nestjs/testing@10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)(@nestjs/platform-express@10.2.2):
+    resolution: {integrity: sha512-zczk6gLfxyVz+rxdNkplGZHM7xpKuknbeYZCCY1CppnAsaCNbFDcqtBdYlDy0mAaUFXv9BFcOC6rWPUXg0KZ1Q==}
     peerDependencies:
       '@nestjs/common': ^10.0.0
       '@nestjs/core': ^10.0.0
@@ -708,10 +708,10 @@ packages:
       '@nestjs/platform-express':
         optional: true
     dependencies:
-      '@nestjs/common': 10.2.1(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.2.1(@nestjs/common@10.2.1)(@nestjs/platform-express@10.2.1)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/platform-express': 10.2.1(@nestjs/common@10.2.1)(@nestjs/core@10.2.1)
-      tslib: 2.6.1
+      '@nestjs/common': 10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.2(@nestjs/common@10.2.2)(@nestjs/platform-express@10.2.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/platform-express': 10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)
+      tslib: 2.6.2
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -745,6 +745,20 @@ packages:
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
+
+  /@rollup/pluginutils@5.0.4:
+    resolution: {integrity: sha512-0KJnIoRI8A+a1dqOYLxH8vBf8bphDmty5QvIm2hqm7oFCFYKCAZWWd2hXgMibaPsNDhI0AtpYfQZJG47pt/k4g==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.1
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+    dev: true
 
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -888,7 +902,7 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
     dev: true
 
   /@types/chai-subset@1.3.3:
@@ -904,7 +918,7 @@ packages:
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
     dev: true
 
   /@types/cookiejar@2.1.2:
@@ -932,7 +946,7 @@ packages:
   /@types/express-serve-static-core@4.17.36:
     resolution: {integrity: sha512-zbivROJ0ZqLAtMzgzIUC4oNqDG9iF0lSsAqpOD9kbs5xcIM3dTiyuHvBc7R8MtWBp3AAWGaovJa+wzWPjLYW7Q==}
     dependencies:
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.1
@@ -971,8 +985,8 @@ packages:
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
     dev: true
 
-  /@types/node@20.5.6:
-    resolution: {integrity: sha512-Gi5wRGPbbyOTX+4Y2iULQ27oUPrefaB0PxGQJnfyWN3kvEDGM3mIB5M/gQLmitZf7A9FmLeaqxD3L1CXpm3VKQ==}
+  /@types/node@20.5.7:
+    resolution: {integrity: sha512-dP7f3LdZIysZnmvP3ANJYTSwg+wLLl8p7RqniVlV7j+oXSXAbt9h0WIBFmJy5inWZoX9wZN6eXx+YXd9Rh3RBA==}
     dev: true
 
   /@types/parse-json@4.0.0:
@@ -995,7 +1009,7 @@ packages:
     resolution: {integrity: sha512-Cwo8LE/0rnvX7kIIa3QHCkcuF21c05Ayb0ZfxPiv0W8VRiZiNW/WuRupHKpqqGVGf7SUA44QSOUKaEd9lIrd/Q==}
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
     dev: true
 
   /@types/serve-static@1.15.2:
@@ -1003,14 +1017,14 @@ packages:
     dependencies:
       '@types/http-errors': 2.0.1
       '@types/mime': 3.0.1
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
     dev: true
 
   /@types/superagent@4.1.18:
     resolution: {integrity: sha512-LOWgpacIV8GHhrsQU+QMZuomfqXiqzz3ILLkCtKx3Us6AmomFViuzKT9D693QTKgyut2oCytMG8/efOop+DB+w==}
     dependencies:
       '@types/cookiejar': 2.1.2
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
     dev: true
 
   /@types/supertest@2.0.12:
@@ -2587,6 +2601,10 @@ packages:
     engines: {node: '>=4.0'}
     dev: true
 
+  /estree-walker@2.0.2:
+    resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
+    dev: true
+
   /esutils@2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
@@ -3381,7 +3399,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -3482,6 +3500,11 @@ packages:
 
   /lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
+    dev: true
+
+  /load-tsconfig@0.2.5:
+    resolution: {integrity: sha512-IXO6OCs9yg8tMKzfPZ1YmheJbZCiEsnBdcB03l0OcfK9prKnJb96siuHCr5Fl37/yo9DnKU+TLpxzTUspw9shg==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
   /loader-runner@4.3.0:
@@ -4702,7 +4725,7 @@ packages:
       webpack: 5.88.2(@swc/core@1.3.80)
     dev: true
 
-  /ts-node@10.9.1(@swc/core@1.3.80)(@types/node@20.5.6)(typescript@5.2.2):
+  /ts-node@10.9.1(@swc/core@1.3.80)(@types/node@20.5.7)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -4722,7 +4745,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -4760,9 +4783,6 @@ packages:
       minimist: 1.2.8
       strip-bom: 3.0.0
     dev: true
-
-  /tslib@2.6.1:
-    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
 
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
@@ -4877,42 +4897,26 @@ packages:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
 
-  /unplugin-swc@1.3.2(@swc/core@1.3.80)(vite@4.4.9)(webpack@5.88.2):
-    resolution: {integrity: sha512-x0+NTM4NR1jWpailVhK5sXO9svyL4iWZ+yah0WZ1G+SaI1hPysa95nVSzXqLP7y4+MKTO17wP+EVqjrREqgBsw==}
+  /unplugin-swc@1.4.2(@swc/core@1.3.80):
+    resolution: {integrity: sha512-BnvzxcqNfAKIu/cYyMHP6v/A7LnMQBS0kkoiJn5CYY8Kzp94LbjuI/MgOMXDnYYNY+hF0Kbv804pNQSf8jx7pg==}
     peerDependencies:
       '@swc/core': ^1.2.108
     dependencies:
+      '@rollup/pluginutils': 5.0.4
       '@swc/core': 1.3.80
-      unplugin: 0.6.3(vite@4.4.9)(webpack@5.88.2)
+      load-tsconfig: 0.2.5
+      unplugin: 1.4.0
     transitivePeerDependencies:
-      - esbuild
       - rollup
-      - vite
-      - webpack
     dev: true
 
-  /unplugin@0.6.3(vite@4.4.9)(webpack@5.88.2):
-    resolution: {integrity: sha512-CoW88FQfCW/yabVc4bLrjikN9HC8dEvMU4O7B6K2jsYMPK0l6iAnd9dpJwqGcmXJKRCU9vwSsy653qg+RK0G6A==}
-    peerDependencies:
-      esbuild: '>=0.13'
-      rollup: ^2.50.0
-      vite: ^2.3.0
-      webpack: 4 || 5
-    peerDependenciesMeta:
-      esbuild:
-        optional: true
-      rollup:
-        optional: true
-      vite:
-        optional: true
-      webpack:
-        optional: true
+  /unplugin@1.4.0:
+    resolution: {integrity: sha512-5x4eIEL6WgbzqGtF9UV8VEC/ehKptPXDS6L2b0mv4FRMkJxRtjaJfOWDd6a8+kYbqsjklix7yWP0N3SUepjXcg==}
     dependencies:
+      acorn: 8.10.0
       chokidar: 3.5.3
-      vite: 4.4.9(@types/node@20.5.6)
-      webpack: 5.88.2(@swc/core@1.3.80)
       webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.4.6
+      webpack-virtual-modules: 0.5.0
     dev: true
 
   /update-browserslist-db@1.0.11(browserslist@4.21.10):
@@ -4956,7 +4960,7 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  /vite-node@0.34.3(@types/node@20.5.6):
+  /vite-node@0.34.3(@types/node@20.5.7):
     resolution: {integrity: sha512-+0TzJf1g0tYXj6tR2vEyiA42OPq68QkRZCu/ERSo2PtsDJfBpDyEfuKbRvLmZqi/CgC7SCBtyC+WjTGNMRIaig==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -4966,7 +4970,7 @@ packages:
       mlly: 1.4.1
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.4.9(@types/node@20.5.6)
+      vite: 4.4.9(@types/node@20.5.7)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4978,7 +4982,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.4.9(@types/node@20.5.6):
+  /vite@4.4.9(@types/node@20.5.7):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -5006,7 +5010,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
       esbuild: 0.18.20
       postcss: 8.4.28
       rollup: 3.28.1
@@ -5047,7 +5051,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
-      '@types/node': 20.5.6
+      '@types/node': 20.5.7
       '@vitest/expect': 0.34.3
       '@vitest/runner': 0.34.3
       '@vitest/snapshot': 0.34.3
@@ -5066,8 +5070,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.0
       tinypool: 0.7.0
-      vite: 4.4.9(@types/node@20.5.6)
-      vite-node: 0.34.3(@types/node@20.5.6)
+      vite: 4.4.9(@types/node@20.5.7)
+      vite-node: 0.34.3(@types/node@20.5.7)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
@@ -5106,8 +5110,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack-virtual-modules@0.4.6:
-    resolution: {integrity: sha512-5tyDlKLqPfMqjT3Q9TAqf2YqjwmnUleZwzJi1A5qXnlBCdj2AtOJ6wAWdglTIDOPgOiOrXeBeFcsQ8+aGQ6QbA==}
+  /webpack-virtual-modules@0.5.0:
+    resolution: {integrity: sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==}
     dev: true
 
   /webpack@5.88.2(@swc/core@1.3.80):
