@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@nestjs/common':
-    specifier: 10.2.2
-    version: 10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
+    specifier: 10.2.3
+    version: 10.2.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
   '@nestjs/core':
-    specifier: 10.2.2
-    version: 10.2.2(@nestjs/common@10.2.2)(@nestjs/platform-express@10.2.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+    specifier: 10.2.3
+    version: 10.2.3(@nestjs/common@10.2.3)(@nestjs/platform-express@10.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
   '@nestjs/platform-express':
-    specifier: 10.2.2
-    version: 10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)
+    specifier: 10.2.3
+    version: 10.2.3(@nestjs/common@10.2.3)(@nestjs/core@10.2.3)
   reflect-metadata:
     specifier: 0.1.13
     version: 0.1.13
@@ -24,16 +24,16 @@ dependencies:
 devDependencies:
   '@nestjs/cli':
     specifier: 10.1.16
-    version: 10.1.16(@swc/core@1.3.80)
+    version: 10.1.16(@swc/core@1.3.81)
   '@nestjs/schematics':
     specifier: 10.0.2
     version: 10.0.2(typescript@5.2.2)
   '@nestjs/testing':
-    specifier: 10.2.2
-    version: 10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)(@nestjs/platform-express@10.2.2)
+    specifier: 10.2.3
+    version: 10.2.3(@nestjs/common@10.2.3)(@nestjs/core@10.2.3)(@nestjs/platform-express@10.2.3)
   '@swc/core':
-    specifier: 1.3.80
-    version: 1.3.80
+    specifier: 1.3.81
+    version: 1.3.81
   '@types/express':
     specifier: 4.17.17
     version: 4.17.17
@@ -75,7 +75,7 @@ devDependencies:
     version: 9.4.4(typescript@5.2.2)(webpack@5.88.2)
   ts-node:
     specifier: 10.9.1
-    version: 10.9.1(@swc/core@1.3.80)(@types/node@20.5.7)(typescript@5.2.2)
+    version: 10.9.1(@swc/core@1.3.81)(@types/node@20.5.7)(typescript@5.2.2)
   tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0
@@ -84,7 +84,7 @@ devDependencies:
     version: 5.2.2
   unplugin-swc:
     specifier: 1.4.2
-    version: 1.4.2(@swc/core@1.3.80)
+    version: 1.4.2(@swc/core@1.3.81)
   vite:
     specifier: 4.4.9
     version: 4.4.9(@types/node@20.5.7)
@@ -557,7 +557,7 @@ packages:
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
     dev: true
 
-  /@nestjs/cli@10.1.16(@swc/core@1.3.80):
+  /@nestjs/cli@10.1.16(@swc/core@1.3.81):
     resolution: {integrity: sha512-nZ9vs7D0BMOW9XrN7hN7BJl2Z0s+CRFwhDPVmJP2lc50mDsAcnWDLFuttupPc/AknO570Xqoxf1Q2cQ5YSgjpA==}
     engines: {node: '>= 16'}
     hasBin: true
@@ -574,7 +574,7 @@ packages:
       '@angular-devkit/schematics': 16.2.0(chokidar@3.5.3)
       '@angular-devkit/schematics-cli': 16.2.0(chokidar@3.5.3)
       '@nestjs/schematics': 10.0.2(chokidar@3.5.3)(typescript@5.1.6)
-      '@swc/core': 1.3.80
+      '@swc/core': 1.3.81
       chalk: 4.1.2
       chokidar: 3.5.3
       cli-table3: 0.6.3
@@ -591,7 +591,7 @@ packages:
       tsconfig-paths: 4.2.0
       tsconfig-paths-webpack-plugin: 4.1.0
       typescript: 5.1.6
-      webpack: 5.88.2(@swc/core@1.3.80)
+      webpack: 5.88.2(@swc/core@1.3.81)
       webpack-node-externals: 3.0.0
     transitivePeerDependencies:
       - esbuild
@@ -599,8 +599,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@nestjs/common@10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1):
-    resolution: {integrity: sha512-TCOJK2K4FDT3GxFfURjngnjBewS/hizKNFSLBXtX4TTQm0dVQOtESnnVdP14sEiPM6suuWlrGnXW9UDqItGWiQ==}
+  /@nestjs/common@10.2.3(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-kkjWok9B2E/nFHO+AJ07JrSctXXL+KwZyBmdms4FMBtL8CYRGILaB3UBxU4zT1yKdCEMmw5tAqxZxim2XMLmNg==}
     peerDependencies:
       class-transformer: '*'
       class-validator: '*'
@@ -618,8 +618,8 @@ packages:
       tslib: 2.6.2
       uid: 2.0.2
 
-  /@nestjs/core@10.2.2(@nestjs/common@10.2.2)(@nestjs/platform-express@10.2.2)(reflect-metadata@0.1.13)(rxjs@7.8.1):
-    resolution: {integrity: sha512-444gApiDCV63Gq7a3WgboNEPBYZt/UcozRhOKEl5FTAXWrZbDoz48e8RXOCFzST1Py0HKUnharMtpb28l7zgJw==}
+  /@nestjs/core@10.2.3(@nestjs/common@10.2.3)(@nestjs/platform-express@10.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-3zTSCSxe4FWUlo0AURJmwZd2lYM8ex6DOTO0ENMIrbchAfAGy1Uke2qftyuETQsz36PgCAPaoB9yUiV6kw0HGw==}
     requiresBuild: true
     peerDependencies:
       '@nestjs/common': ^10.0.0
@@ -636,8 +636,8 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/platform-express': 10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)
+      '@nestjs/common': 10.2.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/platform-express': 10.2.3(@nestjs/common@10.2.3)(@nestjs/core@10.2.3)
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
@@ -649,14 +649,14 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /@nestjs/platform-express@10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2):
-    resolution: {integrity: sha512-g5AeXgPQrVm62JOl9FXk0w3Tq1tD4f6ouGikLYs/Aahy0q/Z2HNP9NjXZYpqcjHrpafPYnc3bfBuUwedKW1oHg==}
+  /@nestjs/platform-express@10.2.3(@nestjs/common@10.2.3)(@nestjs/core@10.2.3):
+    resolution: {integrity: sha512-X2ymzecNZGSM5DDwce4oIlWz7ZOadBP5U6UVaaPztjlh+52KhjQk6AAv6wpAxURIriUl8+qIQe+Esn6ybrjd7A==}
     peerDependencies:
       '@nestjs/common': ^10.0.0
       '@nestjs/core': ^10.0.0
     dependencies:
-      '@nestjs/common': 10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.2.2(@nestjs/common@10.2.2)(@nestjs/platform-express@10.2.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/common': 10.2.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.3(@nestjs/common@10.2.3)(@nestjs/platform-express@10.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       body-parser: 1.20.2
       cors: 2.8.5
       express: 4.18.2
@@ -695,8 +695,8 @@ packages:
       - chokidar
     dev: true
 
-  /@nestjs/testing@10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)(@nestjs/platform-express@10.2.2):
-    resolution: {integrity: sha512-zczk6gLfxyVz+rxdNkplGZHM7xpKuknbeYZCCY1CppnAsaCNbFDcqtBdYlDy0mAaUFXv9BFcOC6rWPUXg0KZ1Q==}
+  /@nestjs/testing@10.2.3(@nestjs/common@10.2.3)(@nestjs/core@10.2.3)(@nestjs/platform-express@10.2.3):
+    resolution: {integrity: sha512-+EaUx3gQVQgosuLxr+pwfPAhIobgRCfyBe4l/9jhquxW7UwTXhXjOIeL45zdqSXLsKn2++F+oKYRi9cceu3vWQ==}
     peerDependencies:
       '@nestjs/common': ^10.0.0
       '@nestjs/core': ^10.0.0
@@ -708,9 +708,9 @@ packages:
       '@nestjs/platform-express':
         optional: true
     dependencies:
-      '@nestjs/common': 10.2.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.2.2(@nestjs/common@10.2.2)(@nestjs/platform-express@10.2.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/platform-express': 10.2.2(@nestjs/common@10.2.2)(@nestjs/core@10.2.2)
+      '@nestjs/common': 10.2.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.2.3(@nestjs/common@10.2.3)(@nestjs/platform-express@10.2.3)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/platform-express': 10.2.3(@nestjs/common@10.2.3)(@nestjs/core@10.2.3)
       tslib: 2.6.2
     dev: true
 
@@ -764,8 +764,8 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@swc/core-darwin-arm64@1.3.80:
-    resolution: {integrity: sha512-rhoFTcQMUGfO7IkfOnopPSF6O0/aVJ58B7KueIKbvrMe6YvSfFj9QfObELFjYCcrJZTvUWBhig0QrsfPIiUphA==}
+  /@swc/core-darwin-arm64@1.3.81:
+    resolution: {integrity: sha512-uc8/hpS5KXrMo6IvdDC/tpmns6rYVYOmf+t2Zh4dNf6fsfQ4kQVyJErD0MtJ5pykZWd/kCPD5NF/FyRQ5xfSfw==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
@@ -773,8 +773,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-darwin-x64@1.3.80:
-    resolution: {integrity: sha512-0dOLedFpVXe+ugkKHXsqSxMKqvQYfFtibWbrZ7j8wOaErzSGPr0VpyWvepNVb9s046725kPXSw+fsGhqZR8wrw==}
+  /@swc/core-darwin-x64@1.3.81:
+    resolution: {integrity: sha512-GSS4b18cUKyZXY8vgZBOS7ERFXYmHX7O8c2ZbV9YLCz7AAQ71EtlBrO8N7/Gzq2Etea3CVFxPqnKB1wzVWVpUA==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
@@ -782,8 +782,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm-gnueabihf@1.3.80:
-    resolution: {integrity: sha512-QIjwP3PtDeHBDkwF6+ZZqdUsqAhORbMpxrw2jq3mHe4lQrxBttSFTq018vlMRo2mFEorOvXdadzaD9m+NymPrw==}
+  /@swc/core-linux-arm-gnueabihf@1.3.81:
+    resolution: {integrity: sha512-rwVheKf4RogHSap+QDnnCvqCE1k2x63Lhg6XOr0A2/12vDvHXLzVfqgn2ox69CmD0GfqVQ3g56qAfi693njvUg==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
@@ -791,8 +791,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm64-gnu@1.3.80:
-    resolution: {integrity: sha512-cg8WriIueab58ZwkzXmIACnjSzFLzOBwxlC9k65gPXMNgCjab2YbqEYvAbjBqneuqaao02gW6tad2uhjgYaExw==}
+  /@swc/core-linux-arm64-gnu@1.3.81:
+    resolution: {integrity: sha512-M+cNSSu8z573sDLbm2llRlp32EeoIymZ1PVQNYFWowDvgAbgpU7Cxqzr4Qb8D/p6bglWDLb32fD1KuPTnrvYkA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -800,8 +800,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm64-musl@1.3.80:
-    resolution: {integrity: sha512-AhdCQ7QKx5mWrtpaOA1mFRiWWvuiiUtspvo0QSpspDetRKTND1rlf/3UB5+gp0kCeCNUTsVmJWU7fIA9ICZtXA==}
+  /@swc/core-linux-arm64-musl@1.3.81:
+    resolution: {integrity: sha512-6Ncm6c9qOZAK4wwQHXUS3Zo6B5kUmgfN7kv/qZPMbbOK5TRK5TKcM4HmBzSXVVDq0/12vev8x65ICmwPuB5IpA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -809,8 +809,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-x64-gnu@1.3.80:
-    resolution: {integrity: sha512-+2e5oni1vOrLIjM5Q2/GIzK/uS2YEtuJqnjPvCK8SciRJsSl8OgVsRvyCDbmKeZNtJ2Q+o/O2AQ2w1qpAJG6jg==}
+  /@swc/core-linux-x64-gnu@1.3.81:
+    resolution: {integrity: sha512-MYPQTW2yh7A+Od0LcNu79SG6BzCW/ktoq8qRGEwxnohRPlW9Fb0zuGbi4+l023O96W2K4V7tIWmmlKvcZAvP9w==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -818,8 +818,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-x64-musl@1.3.80:
-    resolution: {integrity: sha512-8OK9IlI1zpWOm7vIp1iXmZSEzLAwFpqhsGSEhxPavpOx2m54kLFdPcw/Uv3n461f6TCtszIxkGq1kSqBUdfUBA==}
+  /@swc/core-linux-x64-musl@1.3.81:
+    resolution: {integrity: sha512-EYYl/RrkEAMS2fk445V4xJMUXcrbjIJ9B3ACK/tsz1+UcML8Kpg6TvCzlwIdxY8f2oO+FhNC0CALNN31Asgfzg==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -827,8 +827,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-arm64-msvc@1.3.80:
-    resolution: {integrity: sha512-RKhatwiAGlffnF6z2Mm3Ddid0v3KB+uf5m/Gc7N9zO/EUAV0PnHRuYuZSGyqodHmGFC+mK8YrCooFCEmHL9n+w==}
+  /@swc/core-win32-arm64-msvc@1.3.81:
+    resolution: {integrity: sha512-n4tqeuFQXnn2fXVrcy3DVUtDrdFImQYYyY9kJPy4y1MXjeJ1l6/6wx9y+Yowpcnmvpk4JvpKMe4x8r/4rOJjsg==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
@@ -836,8 +836,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-ia32-msvc@1.3.80:
-    resolution: {integrity: sha512-3jiiZzU/kaw7k4zUp1yMq1QiUe4wJVtCEXIhf+fKuBsIwm7rdvyK/+PIx5KHnZy4TGQnYczKBRhJA5nuBcrUCQ==}
+  /@swc/core-win32-ia32-msvc@1.3.81:
+    resolution: {integrity: sha512-XjRxp980/bs11z5jZbWP8VazoCp5sESo8+LxxUUsyENcbfAhFtjaGZTuFY4CSV1gohGAaMLnSlg5bUc+4TLz8A==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
@@ -845,8 +845,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-x64-msvc@1.3.80:
-    resolution: {integrity: sha512-2eZtIoIWQBWqykfms92Zd37lveYOBWQTZjdooBGlsLHtcoQLkNpf1NXmR6TKY0yy8q6Yl3OhPvY+izjmO08MSg==}
+  /@swc/core-win32-x64-msvc@1.3.81:
+    resolution: {integrity: sha512-P/+TBWnYna0QIKWtq02MB/ICdsO5rsI5jwOyhzzID9rl7DRlMmXVqBcVmlnJFEJoEkFYJIlORByMNmSv1YkOqw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
@@ -854,8 +854,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core@1.3.80:
-    resolution: {integrity: sha512-yX2xV5I/lYswHHR+44TPvzBgq3/Y8N1YWpTQADYuvSiX3Jxyvemk5Jpx3rRtigYb8WBkWAAf2i5d5ZJ2M7hhgw==}
+  /@swc/core@1.3.81:
+    resolution: {integrity: sha512-jaKz72JIuPJQXSwSEzF6g3OBIx0IPBfgJHI9hA2jiKnfxJ1EWDd2S33NpU/HfgUCZ822aPmYuHvUhoDj3uauyg==}
     engines: {node: '>=10'}
     requiresBuild: true
     peerDependencies:
@@ -866,16 +866,16 @@ packages:
     dependencies:
       '@swc/types': 0.1.4
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.3.80
-      '@swc/core-darwin-x64': 1.3.80
-      '@swc/core-linux-arm-gnueabihf': 1.3.80
-      '@swc/core-linux-arm64-gnu': 1.3.80
-      '@swc/core-linux-arm64-musl': 1.3.80
-      '@swc/core-linux-x64-gnu': 1.3.80
-      '@swc/core-linux-x64-musl': 1.3.80
-      '@swc/core-win32-arm64-msvc': 1.3.80
-      '@swc/core-win32-ia32-msvc': 1.3.80
-      '@swc/core-win32-x64-msvc': 1.3.80
+      '@swc/core-darwin-arm64': 1.3.81
+      '@swc/core-darwin-x64': 1.3.81
+      '@swc/core-linux-arm-gnueabihf': 1.3.81
+      '@swc/core-linux-arm64-gnu': 1.3.81
+      '@swc/core-linux-arm64-musl': 1.3.81
+      '@swc/core-linux-x64-gnu': 1.3.81
+      '@swc/core-linux-x64-musl': 1.3.81
+      '@swc/core-win32-arm64-msvc': 1.3.81
+      '@swc/core-win32-ia32-msvc': 1.3.81
+      '@swc/core-win32-x64-msvc': 1.3.81
     dev: true
 
   /@swc/types@0.1.4:
@@ -2803,7 +2803,7 @@ packages:
       semver: 7.5.4
       tapable: 2.2.1
       typescript: 5.1.6
-      webpack: 5.88.2(@swc/core@1.3.80)
+      webpack: 5.88.2(@swc/core@1.3.81)
     dev: true
 
   /form-data@4.0.0:
@@ -4608,7 +4608,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser-webpack-plugin@5.3.9(@swc/core@1.3.80)(webpack@5.88.2):
+  /terser-webpack-plugin@5.3.9(@swc/core@1.3.81)(webpack@5.88.2):
     resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -4625,12 +4625,12 @@ packages:
         optional: true
     dependencies:
       '@jridgewell/trace-mapping': 0.3.19
-      '@swc/core': 1.3.80
+      '@swc/core': 1.3.81
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.19.2
-      webpack: 5.88.2(@swc/core@1.3.80)
+      webpack: 5.88.2(@swc/core@1.3.81)
     dev: true
 
   /terser@5.19.2:
@@ -4722,10 +4722,10 @@ packages:
       micromatch: 4.0.5
       semver: 7.5.4
       typescript: 5.2.2
-      webpack: 5.88.2(@swc/core@1.3.80)
+      webpack: 5.88.2(@swc/core@1.3.81)
     dev: true
 
-  /ts-node@10.9.1(@swc/core@1.3.80)(@types/node@20.5.7)(typescript@5.2.2):
+  /ts-node@10.9.1(@swc/core@1.3.81)(@types/node@20.5.7)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -4740,7 +4740,7 @@ packages:
         optional: true
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@swc/core': 1.3.80
+      '@swc/core': 1.3.81
       '@tsconfig/node10': 1.0.9
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
@@ -4897,13 +4897,13 @@ packages:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
 
-  /unplugin-swc@1.4.2(@swc/core@1.3.80):
+  /unplugin-swc@1.4.2(@swc/core@1.3.81):
     resolution: {integrity: sha512-BnvzxcqNfAKIu/cYyMHP6v/A7LnMQBS0kkoiJn5CYY8Kzp94LbjuI/MgOMXDnYYNY+hF0Kbv804pNQSf8jx7pg==}
     peerDependencies:
       '@swc/core': ^1.2.108
     dependencies:
       '@rollup/pluginutils': 5.0.4
-      '@swc/core': 1.3.80
+      '@swc/core': 1.3.81
       load-tsconfig: 0.2.5
       unplugin: 1.4.0
     transitivePeerDependencies:
@@ -5114,7 +5114,7 @@ packages:
     resolution: {integrity: sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==}
     dev: true
 
-  /webpack@5.88.2(@swc/core@1.3.80):
+  /webpack@5.88.2(@swc/core@1.3.81):
     resolution: {integrity: sha512-JmcgNZ1iKj+aiR0OvTYtWQqJwq37Pf683dY9bVORwVbUrDhLhdn/PlO2sHsFHPkj7sHNQF3JwaAkp49V+Sq1tQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -5145,7 +5145,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.9(@swc/core@1.3.80)(webpack@5.88.2)
+      terser-webpack-plugin: 5.3.9(@swc/core@1.3.81)(webpack@5.88.2)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
