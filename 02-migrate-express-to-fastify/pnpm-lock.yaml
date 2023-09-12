@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@fastify/helmet':
-    specifier: 11.0.0
-    version: 11.0.0
+    specifier: 11.1.0
+    version: 11.1.0
   '@nestjs/common':
     specifier: 10.2.5
     version: 10.2.5(reflect-metadata@0.1.13)(rxjs@7.8.1)
@@ -596,8 +596,8 @@ packages:
       fastify-plugin: 4.5.1
     dev: false
 
-  /@fastify/helmet@11.0.0:
-    resolution: {integrity: sha512-YSFhJFR4Pk2azmTkX54f0Z/O7h5j4ruCQUlagf/Rw1P45u5/2u+F+I83DRyIKryM6prXl++X2yY0Ib0RXAlZ7Q==}
+  /@fastify/helmet@11.1.0:
+    resolution: {integrity: sha512-vajWu4/6RlmY01Lcjyr7bx/mx0SBjP9H5PPMPSm/Nrsuc+k5QrsYm600h6ZaPuYdmogazatQ6FSqr/exotsMLw==}
     dependencies:
       fastify-plugin: 4.5.1
       helmet: 7.0.0
