@@ -52,7 +52,7 @@
     "tsconfig-paths": "4.2.0",
     "typescript": "5.2.2",
     "unplugin-swc": "1.4.2",
-    "vite": "4.4.9",
+    "vite": "4.4.10",
     "vitest": "0.34.6"
   },
   "jest": {
