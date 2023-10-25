@@ -50,8 +50,8 @@ devDependencies:
     specifier: 4.2.1
     version: 4.2.1(prettier@3.0.3)
   '@types/node':
-    specifier: 20.8.8
-    version: 20.8.8
+    specifier: 20.8.9
+    version: 20.8.9
   '@types/supertest':
     specifier: 2.0.15
     version: 2.0.15
@@ -87,7 +87,7 @@ devDependencies:
     version: 9.5.0(typescript@5.2.2)(webpack@5.89.0)
   ts-node:
     specifier: 10.9.1
-    version: 10.9.1(@swc/core@1.3.95)(@types/node@20.8.8)(typescript@5.2.2)
+    version: 10.9.1(@swc/core@1.3.95)(@types/node@20.8.9)(typescript@5.2.2)
   tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0
@@ -99,7 +99,7 @@ devDependencies:
     version: 1.4.3(@swc/core@1.3.95)
   vite:
     specifier: 4.5.0
-    version: 4.5.0(@types/node@20.8.8)
+    version: 4.5.0(@types/node@20.8.9)
   vitest:
     specifier: 0.34.6
     version: 0.34.6
@@ -1225,10 +1225,10 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.8.8:
-    resolution: {integrity: sha512-YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==}
+  /@types/node@20.8.9:
+    resolution: {integrity: sha512-UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==}
     dependencies:
-      undici-types: 5.25.3
+      undici-types: 5.26.5
     dev: true
 
   /@types/parse-json@4.0.1:
@@ -1243,7 +1243,7 @@ packages:
     resolution: {integrity: sha512-GfpwJgYSr3yO+nArFkmyqv3i0vZavyEG5xPd/o95RwpKYpsOKJYI5XLdxLpdRbZI3YiGKKdIOFIf/jlP7A0Jxg==}
     dependencies:
       '@types/cookiejar': 2.1.3
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
     dev: true
 
   /@types/supertest@2.0.15:
@@ -3657,7 +3657,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -5065,7 +5065,7 @@ packages:
       webpack: 5.89.0(@swc/core@1.3.95)
     dev: true
 
-  /ts-node@10.9.1(@swc/core@1.3.95)(@types/node@20.8.8)(typescript@5.2.2):
+  /ts-node@10.9.1(@swc/core@1.3.95)(@types/node@20.8.9)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -5085,7 +5085,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -5212,8 +5212,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici-types@5.25.3:
-    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
   /universalify@2.0.0:
@@ -5276,7 +5276,7 @@ packages:
       convert-source-map: 2.0.0
     dev: true
 
-  /vite-node@0.34.6(@types/node@20.8.8):
+  /vite-node@0.34.6(@types/node@20.8.9):
     resolution: {integrity: sha512-nlBMJ9x6n7/Amaz6F3zJ97EBwR2FkzhBRxF5e+jE6LA3yi6Wtc2lyTij1OnDMIr34v5g/tVQtsVAzhT0jc5ygA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -5286,7 +5286,7 @@ packages:
       mlly: 1.4.2
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.5.0(@types/node@20.8.8)
+      vite: 4.5.0(@types/node@20.8.9)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5298,7 +5298,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.5.0(@types/node@20.8.8):
+  /vite@4.5.0(@types/node@20.8.9):
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -5326,7 +5326,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       esbuild: 0.18.20
       postcss: 8.4.31
       rollup: 3.29.4
@@ -5367,7 +5367,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.9
       '@types/chai-subset': 1.3.4
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       '@vitest/expect': 0.34.6
       '@vitest/runner': 0.34.6
       '@vitest/snapshot': 0.34.6
@@ -5386,8 +5386,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.7.0
-      vite: 4.5.0(@types/node@20.8.8)
-      vite-node: 0.34.6(@types/node@20.8.8)
+      vite: 4.5.0(@types/node@20.8.9)
+      vite-node: 0.34.6(@types/node@20.8.9)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
