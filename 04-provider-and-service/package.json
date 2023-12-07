@@ -27,7 +27,7 @@
     "@nestjs/mapped-types": "2.0.4",
     "@nestjs/platform-fastify": "10.2.10",
     "@nestjs/swagger": "7.1.16",
-    "reflect-metadata": "0.1.13",
+    "reflect-metadata": "0.1.14",
     "rxjs": "7.8.1"
   },
   "devDependencies": {
