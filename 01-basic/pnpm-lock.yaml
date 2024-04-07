@@ -83,8 +83,8 @@ devDependencies:
     specifier: 5.4.4
     version: 5.4.4
   unplugin-swc:
-    specifier: 1.4.4
-    version: 1.4.4(@swc/core@1.4.12)
+    specifier: 1.4.5
+    version: 1.4.5(@swc/core@1.4.12)
   vite:
     specifier: 5.2.8
     version: 5.2.8(@types/node@20.12.5)
@@ -5376,8 +5376,8 @@ packages:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
 
-  /unplugin-swc@1.4.4(@swc/core@1.4.12):
-    resolution: {integrity: sha512-S2mgLIQVNR1+UGIk379/wD3tmkTJfm9QJFyZgXutMDNsSJrcPNJUdSXUNGE/+1Zde9i/I0r0BvDqxGgTkg+eJQ==}
+  /unplugin-swc@1.4.5(@swc/core@1.4.12):
+    resolution: {integrity: sha512-ltkJ70kjL53onJrypaMmKDiOvhghNUCbCxjxT6Ir0eAMIBsOfRhPt6vQtxB8R/6wYk/TfIJ2gCgdx2uKNPJRHA==}
     peerDependencies:
       '@swc/core': ^1.2.108
     dependencies:
