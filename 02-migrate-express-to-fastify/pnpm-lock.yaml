@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@fastify/helmet':
-    specifier: 11.1.1
-    version: 11.1.1
+    specifier: 13.1.1
+    version: 13.1.1
   '@nestjs/common':
     specifier: 10.4.16
     version: 10.4.16(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -571,11 +571,11 @@ packages:
       fastify-plugin: 4.5.1
     dev: false
 
-  /@fastify/helmet@11.1.1:
-    resolution: {integrity: sha512-pjJxjk6SLEimITWadtYIXt6wBMfFC1I6OQyH/jYVCqSAn36sgAIFjeNiibHtifjCd+e25442pObis3Rjtame6A==}
+  /@fastify/helmet@13.1.1:
+    resolution: {integrity: sha512-bSat5DTq8geASv8G6P0KW1UbltZ+xGD/zyd9S72pT7ogAHehcsWL85GdjMRCjDsExJvaEvgEZ52qU/2HXirVCw==}
     dependencies:
-      fastify-plugin: 4.5.1
-      helmet: 7.2.0
+      fastify-plugin: 6.0.0
+      helmet: 8.3.0
     dev: false
 
   /@fastify/merge-json-schemas@0.1.1:
@@ -3044,6 +3044,10 @@ packages:
     resolution: {integrity: sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==}
     dev: false
 
+  /fastify-plugin@6.0.0:
+    resolution: {integrity: sha512-fZOty7z3O7vOliF6d8bHE3wiEh1KcNnKEQensSgTk9C1DvN6nRLS++XVd86v33Hw/8u9Un8A1zDrQ8ujcQDHEg==}
+    dev: false
+
   /fastify@4.26.2:
     resolution: {integrity: sha512-90pjTuPGrfVKtdpLeLzND5nyC4woXZN5VadiNQCicj/iJU4viNHKhsAnb7jmv1vu2IzkLXyBiCzdWuzeXgQ5Ug==}
     dependencies:
@@ -3415,9 +3419,9 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /helmet@7.2.0:
-    resolution: {integrity: sha512-ZRiwvN089JfMXokizgqEPXsl2Guk094yExfoDXR0cBYWxtBbaSww/w+vT4WEJsBW2iTUi1GgZ6swmoug3Oy4Xw==}
-    engines: {node: '>=16.0.0'}
+  /helmet@8.3.0:
+    resolution: {integrity: sha512-Qgpiaws3Sm30Av8Eah6sjMCZZwjlBu+E68rhpCWBshY1lb09HtLwj5GviX0OyQIn+ulUS0iX0AxN5n3tLZzz1w==}
+    engines: {node: '>=18.0.0'}
     dev: false
 
   /hexoid@1.0.0:
