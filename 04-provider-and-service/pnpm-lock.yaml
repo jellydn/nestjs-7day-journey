@@ -24,8 +24,8 @@ dependencies:
     specifier: 10.3.7
     version: 10.3.7(@fastify/static@6.12.0)(@nestjs/common@10.4.16)(@nestjs/core@11.1.18)
   '@nestjs/swagger':
-    specifier: 7.3.1
-    version: 7.3.1(@fastify/static@6.12.0)(@nestjs/common@10.4.16)(@nestjs/core@11.1.18)(reflect-metadata@0.2.2)
+    specifier: 12.0.1
+    version: 12.0.1(@fastify/static@6.12.0)(@nestjs/common@10.4.16)(@nestjs/core@11.1.18)(reflect-metadata@0.2.2)
   reflect-metadata:
     specifier: 0.2.2
     version: 0.2.2
@@ -194,11 +194,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@babel/helper-string-parser@7.25.9:
-    resolution: {integrity: sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-string-parser@7.29.7:
     resolution: {integrity: sha512-Pb5ijPrZ89GDH8223L4UP8i6QApWxs04RbPQJTeWDV0/keR2E36MeKnyr6LYmUUvqRRI+Iv87SuF1W6ErINzYw==}
     engines: {node: '>=6.9.0'}
@@ -212,14 +207,6 @@ packages:
   /@babel/helper-validator-identifier@7.29.7:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
-    dev: true
-
-  /@babel/parser@7.26.1:
-    resolution: {integrity: sha512-reoQYNiAJreZNsJzyrDNzFQ+IQ5JFiIzAHJg9bn94S3l+4++J7RsIhNMoB+lgP/9tpmiAQqspv+xfdxTSzREOw==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.26.0
     dev: true
 
   /@babel/parser@7.29.8:
@@ -259,14 +246,6 @@ packages:
       debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/types@7.26.0:
-    resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.25.9
-      '@babel/helper-validator-identifier': 7.25.9
     dev: true
 
   /@babel/types@7.29.8:
@@ -989,6 +968,11 @@ packages:
 
   /@microsoft/tsdoc@0.14.2:
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
+    dev: true
+
+  /@microsoft/tsdoc@0.16.0:
+    resolution: {integrity: sha512-xgAyonlVVS+q7Vc7qLW0UrJU7rSFcETRWsqdXZtjzRU8dF+6CkozTK4V4y1LwOX7j8r/vHphjDeMeGI4tNGeGA==}
+    dev: false
 
   /@napi-rs/lzma-linux-x64-gnu@1.5.1:
     resolution: {integrity: sha512-oTXEIha4SsuXdTA4Iyskj0kpdx2yVXdhd75c2v3xGrHFfVMsbhTPZU/nMPL4sWKo4pBHm3aucLaqGlF696dTyQ==}
@@ -1092,6 +1076,24 @@ packages:
       tslib: 2.8.1
       uid: 2.0.2
 
+  /@nestjs/mapped-types@12.0.0(@nestjs/common@10.4.16)(reflect-metadata@0.2.2):
+    resolution: {integrity: sha512-aX7lxZcqXldtnSr0bgT2ZPQvpTpIwBMW1GMX29o4s3q02vmq6JoTYuPW0GwYXa8BiFMRX7WbGZVDA703pNqOMQ==}
+    engines: {node: '>=20.19.0'}
+    peerDependencies:
+      '@nestjs/common': ^10.0.0 || ^11.0.0 || ^12.0.0
+      class-transformer: ^0.4.0 || ^0.5.0
+      class-validator: ^0.13.0 || ^0.14.0 || ^0.15.0
+      reflect-metadata: ^0.1.12 || ^0.2.0
+    peerDependenciesMeta:
+      class-transformer:
+        optional: true
+      class-validator:
+        optional: true
+    dependencies:
+      '@nestjs/common': 10.4.16(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      reflect-metadata: 0.2.2
+    dev: false
+
   /@nestjs/mapped-types@2.0.5(@nestjs/common@10.4.16)(reflect-metadata@0.2.2):
     resolution: {integrity: sha512-bSJv4pd6EY99NX9CjBIyn4TVDoSit82DUZlL4I3bqNfy5Gt+gXTa86i3I/i0iIV9P4hntcGM5GyO+FhZAhxtyg==}
     peerDependencies:
@@ -1164,12 +1166,13 @@ packages:
       - chokidar
     dev: true
 
-  /@nestjs/swagger@7.3.1(@fastify/static@6.12.0)(@nestjs/common@10.4.16)(@nestjs/core@11.1.18)(reflect-metadata@0.2.2):
-    resolution: {integrity: sha512-LUC4mr+5oAleEC/a2j8pNRh1S5xhKXJ1Gal5ZdRjt9XebQgbngXCdW7JTA9WOEcwGtFZN9EnKYdquzH971LZfw==}
+  /@nestjs/swagger@12.0.1(@fastify/static@6.12.0)(@nestjs/common@10.4.16)(@nestjs/core@11.1.18)(reflect-metadata@0.2.2):
+    resolution: {integrity: sha512-fQ0WyutSSHedO9HzSkOFKFaRygYNGBno5EggcZljs+KL8tHzPPTO5oyJpaf3BoOKFGGsN/0B13EbIpH2pkPx8g==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      '@fastify/static': ^6.0.0 || ^7.0.0
-      '@nestjs/common': ^9.0.0 || ^10.0.0
-      '@nestjs/core': ^9.0.0 || ^10.0.0
+      '@fastify/static': ^8.0.0 || ^9.0.0 || ^10.0.0
+      '@nestjs/common': ^12.0.0
+      '@nestjs/core': ^12.0.0
       class-transformer: '*'
       class-validator: '*'
       reflect-metadata: ^0.1.12 || ^0.2.0
@@ -1182,15 +1185,16 @@ packages:
         optional: true
     dependencies:
       '@fastify/static': 6.12.0
-      '@microsoft/tsdoc': 0.14.2
+      '@microsoft/tsdoc': 0.16.0
       '@nestjs/common': 10.4.16(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core': 11.1.18(@nestjs/common@10.4.16)(reflect-metadata@0.2.2)(rxjs@7.8.1)
-      '@nestjs/mapped-types': 2.0.5(@nestjs/common@10.4.16)(reflect-metadata@0.2.2)
-      js-yaml: 4.1.0
-      lodash: 4.17.21
-      path-to-regexp: 3.2.0
+      '@nestjs/mapped-types': 12.0.0(@nestjs/common@10.4.16)(reflect-metadata@0.2.2)
+      '@standard-schema/spec': 1.1.0
+      es-toolkit: 1.51.0
+      js-yaml: 5.4.1
+      path-to-regexp: 8.4.2
       reflect-metadata: 0.2.2
-      swagger-ui-dist: 5.11.2
+      swagger-ui-dist: 5.32.14
     dev: false
 
   /@nestjs/testing@10.3.7(@nestjs/common@10.4.16)(@nestjs/core@11.1.18):
@@ -1615,9 +1619,18 @@ packages:
     dev: true
     optional: true
 
+  /@scarf/scarf@1.4.0:
+    resolution: {integrity: sha512-xxeapPiUXdZAE3che6f3xogoJPeZgig6omHEy1rIY5WVsB3H2BHNnZH+gHG6x91SCWyQCzWGsuL2Hh3ClO5/qQ==}
+    requiresBuild: true
+    dev: false
+
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
+
+  /@standard-schema/spec@1.1.0:
+    resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
+    dev: false
 
   /@swc/core-darwin-arm64@1.4.13:
     resolution: {integrity: sha512-36P72FLpm5iq85IvoEjBvi22DiqkkEIanJ1M0E8bkxcFHUbjBrYfPY9T6cpPyK5oQqkaTBvNAc3j1BlVD6IH6w==}
@@ -3375,6 +3388,10 @@ packages:
       is-symbol: 1.0.4
     dev: true
 
+  /es-toolkit@1.51.0:
+    resolution: {integrity: sha512-zC2lQGkM7QX+Gm6iM3+WIdZJzthsEd14LvRNJneSO2hzyz/zNBENR8+YXWo1cKxgPBtV6ksPYHELbcwBRzmdCw==}
+    dev: false
+
   /esbuild@0.21.5:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
     engines: {node: '>=12'}
@@ -4775,6 +4792,14 @@ packages:
     hasBin: true
     dependencies:
       argparse: 2.0.1
+    dev: true
+
+  /js-yaml@5.4.1:
+    resolution: {integrity: sha512-28R/k+NAjeuf7+CKlTxWZVExJGwVVLwY06DgEnOMz2gEpfNkDcD7QvyiVPT0xy0XXhU8vHsd4Ot42OOPdJG7dQ==}
+    hasBin: true
+    dependencies:
+      argparse: 2.0.1
+    dev: false
 
   /jsesc@3.0.2:
     resolution: {integrity: sha512-xKqzzWXDttJuOcawBt4KnKHHIf5oQ/Cxax+0PWFG+DFDgHNAdi+TXECADI+RYiFUMmx8792xsMbbgXj4CwnP4g==}
@@ -4918,6 +4943,7 @@ packages:
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
 
   /log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
@@ -6199,8 +6225,10 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /swagger-ui-dist@5.11.2:
-    resolution: {integrity: sha512-jQG0cRgJNMZ7aCoiFofnoojeSaa/+KgWaDlfgs8QN+BXoGMpxeMVY5OEnjq4OlNvF3yjftO8c9GRAgcHlO+u7A==}
+  /swagger-ui-dist@5.32.14:
+    resolution: {integrity: sha512-nOA2pSQhcmODMUQZpJHYKNuwniDUqcOWGNaSCOoZv12FdOSJ9JxV95HtyRGNMqEBj6h6lCNTy20TgZDYTSuUIg==}
+    dependencies:
+      '@scarf/scarf': 1.4.0
     dev: false
 
   /symbol-observable@4.0.0:
@@ -6881,7 +6909,7 @@ packages:
       webpack-cli:
         optional: true
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.9
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/wasm-edit': 1.12.1
       '@webassemblyjs/wasm-parser': 1.12.1
