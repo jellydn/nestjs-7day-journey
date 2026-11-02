@@ -98,8 +98,8 @@ devDependencies:
     specifier: 1.4.5
     version: 1.4.5(@swc/core@1.4.13)
   vite:
-    specifier: 6.4.4
-    version: 6.4.4(@types/node@20.12.7)
+    specifier: 6.4.5
+    version: 6.4.5(@types/node@20.12.7)
   vitest:
     specifier: 1.6.1
     version: 1.6.1(@types/node@20.12.7)
@@ -6470,8 +6470,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite@6.4.4(@types/node@20.12.7):
-    resolution: {integrity: sha512-xGjU/SyjeNyb0E4KxXBvYz/1C+3JXuujvf2hXNOtnlcE+58o5ajd9N2/n2VhkiJvpCP2qQasnUpx5PXNeI+p1Q==}
+  /vite@6.4.5(@types/node@20.12.7):
+    resolution: {integrity: sha512-4enwjFfi4IwtEh0w+jPzpLVOFQiPHmmzPxcHXQOyEur47o6u0jE573DmGpjA+7irXoMLYRZD5ZaFUEneS3abPg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
